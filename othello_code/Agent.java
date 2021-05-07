@@ -17,7 +17,7 @@ this.negaScout = negaScout;
 this.maxDepth = maxDepth;
 this.maxTime = (long)(maxTime * 1e9);
 }
-/** Searches and returns the agent's move */
+/** Searches and return,s the predicted move of agent */
 public int getMove(Board b, GraphicUI g) {
 g.locked = true;
 g.clearComputerOutput();
