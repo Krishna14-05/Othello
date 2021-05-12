@@ -2,7 +2,7 @@
 package othellosaurus;
 import java.util.Arrays;
 /**
-* Representation for game state in Othello
+* Representation for game state in Othello initially
 */
 public class Board implements Comparable<Board> {
 public static final int WHITE = 0;
