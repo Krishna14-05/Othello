@@ -7,7 +7,7 @@ public static final int MOBILITY_FACTOR = 10000;
 // weights for heuristics given number of pieces on the board
 public int[][] weightsForNumPieces;
 /**
-* Constructs a new evaluator
+* Constructs a new evaluator with the help of given classes
 * weightsForTimings is an array of weights. Timings is an array that
 * determines at which number of pieces on the board to use the matching
 * set of weights.
