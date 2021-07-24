@@ -28,7 +28,7 @@ public class GraphicUI extends JFrame implements ActionListener, ChangeListener 
 public static final int SQUARE_LENGTH = 60; // size for squares to be displayed
 public static final int X_BUFFER = 23; // the space to leave around xs denoting
 // legal squares to move in
-public static final int PIECE_BUFFER = 4; // space to leave around drawing of a piece
+public static final int PIECE_BUFFER = 4; // space to lft around drawing of a piece
 private Board gameBoard; // currently displayed position
 private final Stack<Board> gameHistory; // positions that have occurred so far
 private final Square[][] squares = new Square[8][8]; // squares for displaying board
