@@ -8,7 +8,7 @@ public class Board implements Comparable<Board> {
 public static final int WHITE = 0;
 public static final int BLACK = 1;
 public static final int PASS = -1;
-// the starting configuration, used mainly for testing purposes
+// the starting configuration, used mainly for testing purpose
 // 1 for white piece, 2 for black, last index tells which player moves first
 public static final int[] START = new int[]
 {0, 0, 0, 0, 0, 0, 0, 0,
