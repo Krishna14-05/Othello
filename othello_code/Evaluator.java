@@ -1,6 +1,6 @@
 package othellosaurus;
 /**
-* Othello static evaluator
+* Othello static evaluator function
 */
 public class Evaluator {
 public static final int MOBILITY_FACTOR = 10000;
